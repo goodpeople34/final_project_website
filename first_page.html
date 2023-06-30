@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page</title>
+    <style>
+        body{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif, bold;
+            background-color: rgba(111, 42, 176, 0.79);
+        }
+        .body_table{
+            margin-top: 50px;
+            padding-top: 20px;
+            text-align: center;
+        }
+        .main_body{
+            background-color: aliceblue;
+        }
+        img{
+            height: 100%;
+        }
+        tr:nth-child(even) {
+        background-color: #f2f2f2;
+        }
+        .meetingRoom h2{
+            background-color: rgba(111, 42, 176, 0.79);
+            color: aliceblue;
+            width: 200px;
+            padding: 5px;
+            padding-left: 7px;
+            display: flex;
+            position: absolute;
+            top: 60px;
+            left: 10px;
+         
+        }
+        .meeting_rooms{
+            width: 100%;
+        }
+        .meetingRoom{
+            padding: 10px;
+            width: auto;
+            position: relative;
+            height: 200px;
+            margin-left: 12%;
+            margin-bottom: 50px;
+            display: inline-block;
+        }
+        table{
+            border-collapse: collapse;
+            margin: auto;
+            width: 80%;
+            margin-bottom: 50px;
+            border:1px solid #ddd;
+            border-spacing: 0;
+            color: #2b2b2be7;
+        }
+        table thead{
+            background-color: #e3b358;
+        }
+        table th{
+            padding: 5px;
+        }
+
+        table tbody{
+            text-align: center;
+        }
+        .room_choices{
+            border-top: solid 10px rgba(111, 42, 176, 0.79);
+        }
+        .room_choices h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main_body">
+    <div class="body_table">
+        <table border="1">
+            <thead>
+            <tr>
+                <th style="width: 5%;">
+                    No
+                </th>
+                <th>
+                    Ruang
+                </th>
+                <th>
+                    Jam
+                </th>
+                <th>
+                    Tanggal
+                </th>
+                <th style="width: 50%;">
+                    Keperluan
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    5.3.1
+                </td>
+                <td>
+                    07.00-08.40
+                </td>
+                <td>
+                    31-31-2031
+                </td>
+                <td>
+                    kelas pengganti
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    2
+                </td>
+                <td>
+                    CITRA II
+                </td>
+                <td>
+                    07.00-08.40
+                </td>
+                <td>
+                    31-31-2031
+                </td>
+                <td>
+                    acara amicta
+                </td>
+            </tr>
+        </tbody>
+        </table>
+    </div>
+    <div class="room_choices">
+    <h2>Pilih Ruangan</h2>
+
+    <div class="meeting_rooms" >
+        <div class="meetingRoom">
+        <a href="#">
+            <h2>ruang kelas</h2>
+            <img src="meeting-rooms.jpg" alt="">
+        </a>
+        </div>
+        <div class="meetingRoom" >
+            <a href="#">
+                <h2>ruang event</h2>
+                <img src="meeting-rooms.jpg" alt="">
+            </a>
+        </div>
+    </div>
+</div>
+</div>
+</body>
+</html>
